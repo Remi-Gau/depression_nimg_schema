@@ -1,15 +1,15 @@
 {
-    "@context": ["https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-            {
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+        {
             "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
         }
     ],
     "@type": "reproschema:Protocol",
     "@id": "depression_nimg_schema",
     "prefLabel": "depression neuroimaging study",
-    "schema:description": "a study on linguistic processing in depression",
-    "schema:schemaVersion": "1.0.0-rc1",
-    "schema:version": "0.0.1",
+    "description": "a study on linguistic processing in depression",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
     "landingPage": { 
         "@id": "README.md",
         "@language": "en"
