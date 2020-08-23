@@ -15,19 +15,21 @@
         "@language": "en"
     },
     "ui": {
-    "addProperties": [
-        {"isAbout": "rl:BADS/BADS_schema",
-        "variableName": "BADS_schema",
-        "prefLabel": {"en": "Behavior"}
-        },
-        {"isAbout": "rl:ThankYou/ThankYou_schema",
-        "variableName": "ThankYou_schema",
-        "prefLabel": {"en": "ThankYou"}
-        }
-    ],
-    "order": [
-        "rl:BADS/BADS_schema",
-        "rl:ThankYou/ThankYou_schema"
-    ]
+        "addProperties": [
+            {"isAbout": "rl:BADS/BADS_schema",
+            "variableName": "BADS_schema",
+            "prefLabel": {"en": "Behavior"}
+            },
+            {"isAbout": "rl:ThankYou/ThankYou_schema",
+            "variableName": "ThankYou_schema",
+            "prefLabel": {"en": "ThankYou"}
+            }
+        ],
+        "order": [
+            "rl:BADS/BADS_schema",
+            "rl:ThankYou/ThankYou_schema"
+        ],
+        "shuffle": false,
+        "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
     }
 }
