@@ -15,21 +15,19 @@
         "@language": "en"
     },
     "ui": {
-        "addProperties": [
-            {"isAbout": "rl:BADS/BADS_schema",
-            "variableName": "BADS_schema",
-            "prefLabel": {"en": "Behavior"}
-            },
-            {"isAbout": "rl:ThankYou/ThankYou_schema",
-            "variableName": "ThankYou_schema",
-            "prefLabel": {"en": "ThankYou"}
-            }
-        ],
-        "order": [
-            "rl:BADS/BADS_schema",
-            "rl:ThankYou/ThankYou_schema"
-        ],
-        "shuffle": false,
-        "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+    "addProperties": [
+        {"isAbout": "rl:PHQ-9/PHQ9_schema",
+        "variableName": "PHQ9_schema",
+        "prefLabel": {"en": "Depression"}
+        },
+        {"isAbout": "rl:ThankYou/ThankYou_schema",
+        "variableName": "ThankYou_schema",
+        "prefLabel": {"en": "ThankYou"}
+        }
+    ],
+    "order": [
+        "rl:PHQ-9/PHQ9_schema",
+        "rl:ThankYou/ThankYou_schema"
+    ]
     }
 }
