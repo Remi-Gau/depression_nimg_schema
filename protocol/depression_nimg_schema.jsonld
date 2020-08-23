@@ -1,5 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+        {
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
+        }
+    ],
     "@type": "reproschema:Protocol",
     "@id": "depression_nimg_schema",
     "prefLabel": "depression neuroimaging study",
@@ -9,5 +13,21 @@
     "landingPage": { 
         "@id": "README.md",
         "@language": "en"
+    },
+    "ui": {
+    "addProperties": [
+        {"isAbout": "rl:BADS/BADS_schema",
+        "variableName": "BADS_schema",
+        "prefLabel": {"en": "Behavior"}
+        },
+        {"isAbout": "rl:ThankYou/ThankYou_schema",
+        "variableName": "ThankYou_schema",
+        "prefLabel": {"en": "ThankYou"}
+        }
+    ],
+    "order": [
+        "rl:BADS/BADS_schema",
+        "rl:ThankYou/ThankYou_schema"
+    ]
     }
 }
