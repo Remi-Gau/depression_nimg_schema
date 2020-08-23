@@ -19,15 +19,10 @@
         {"isAbout": "rl:PHQ-9/PHQ9_schema",
         "variableName": "PHQ9_schema",
         "prefLabel": {"en": "Depression"}
-        },
-        {"isAbout": "rl:ThankYou/ThankYou_schema",
-        "variableName": "ThankYou_schema",
-        "prefLabel": {"en": "ThankYou"}
         }
     ],
     "order": [
-        "rl:PHQ-9/PHQ9_schema",
-        "rl:ThankYou/ThankYou_schema"
+        "rl:PHQ-9/PHQ9_schema"
     ]
     }
 }
