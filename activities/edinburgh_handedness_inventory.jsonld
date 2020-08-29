@@ -27,7 +27,7 @@
                 "variableName": "drawing",
                 "isAbout": "items/drawing.jsonld",
                 "isVis": true
-            },
+            }
         ]
     }
 }
