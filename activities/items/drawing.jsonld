@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "writing.jsonld",
-    "prefLabel": "writing",
-    "description": "writing item of the EHI",
+    "@id": "drawing.jsonld",
+    "prefLabel": "drawing",
+    "description": "drawing item of the EHI",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Writing",
+    "question": "Drawing",
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": -100,

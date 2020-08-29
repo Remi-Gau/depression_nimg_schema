@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "edinburgh_handedness_inventory",
+    "@id": "edinburgh_handedness_inventory.jsonld",
     "prefLabel": "Edinburgh handedness inventory",
     "description": "Edinburgh handedness inventory",
     "schemaVersion": "1.0.0-rc1",
@@ -13,7 +13,8 @@
     "preamble": "Please indicate your preferences in the use of hands in the following activities or objects:",
     "ui": {
         "order": [
-            "items/writing"
+            "items/writing.jsonld",
+            "items/drawing.jsonld"
         ],
         "shuffle": false,
         "addProperties": [
@@ -21,7 +22,12 @@
                 "variableName": "writing",
                 "isAbout": "items/writing.jsonld",
                 "isVis": true
-            }
+            },
+            {
+                "variableName": "drawing",
+                "isAbout": "items/drawing.jsonld",
+                "isVis": true
+            },
         ]
     }
 }
