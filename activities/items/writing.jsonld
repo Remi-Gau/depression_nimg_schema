@@ -7,33 +7,6 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": "Writing",
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": -100,
-        "maxValue": 100,
-        "multipleChoice": false,
-        "choices": [
-            {
-                "name": "Always right",
-                "value": 100
-            },
-            {
-                "name": "Usually right",
-                "value": 50
-            },
-            {
-                "name": "Both equally",
-                "value": 0
-            },
-            {
-                "name": "Usually left",
-                "value": -50
-            },
-            {
-                "name": "Always left",
-                "value": -100
-            }
-        ]
-    },
-    "ui": {"inputType": "radio"}
+    "ui": {"inputType": "radio"},
+    "responseOptions": "../response_options/leftRightValueConstraints.jsonld"
 }

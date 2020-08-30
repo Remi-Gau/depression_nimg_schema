@@ -1,20 +1,17 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "edinburgh_handedness_inventory.jsonld",
-    "prefLabel": "Edinburgh handedness inventory",
-    "description": "Edinburgh handedness inventory",
+    "@id": "edinburgh_handedness_inventory_short.jsonld",
+    "prefLabel": "Edinburgh handedness inventory - short form",
+    "description": "Short version of the Edinburgh handedness inventory",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "citation": [
-        "10.1016/0028-3932(71)90067-4",
-        "10.1080/1357650X.2013.783045"
-        ],
+    "citation": "10.1080/1357650X.2013.783045",
     "preamble": "Please indicate your preferences in the use of hands in the following activities or objects:",
     "ui": {
         "order": [
             "items/writing.jsonld",
-            "items/drawing.jsonld",
+            "items/throwing.jsonld",
             "items/EHI_results.jsonld"
         ],
         "shuffle": false,
@@ -26,8 +23,8 @@
                 "isVis": true
             },
             {
-                "variableName": "drawing",
-                "isAbout": "items/drawing.jsonld",
+                "variableName": "throwing",
+                "isAbout": "items/throwing.jsonld",
                 "valueRequired": true,
                 "isVis": true
             },
@@ -41,7 +38,7 @@
     "compute": [
         {
             "variableName": "EHI_results",
-            "jsExpression": "( writing + drawing ) / 2"
+            "jsExpression": "( writing + throwing ) / 2"
         }
     ]
 }
