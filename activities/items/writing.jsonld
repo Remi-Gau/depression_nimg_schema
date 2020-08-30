@@ -6,7 +6,10 @@
     "description": "writing item of the EHI",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Writing",
+    "question": {
+        "en": "Writing",
+        "fr": "Écrire"
+    },
     "ui": {"inputType": "radio"},
     "responseOptions": "../leftRightValueConstraints.jsonld"
 }

@@ -8,23 +8,38 @@
     "multipleChoice": false,
     "choices": [
         {
-            "name": "Always right",
+            "name": {
+            "en": "Always right",
+            "fr": "Toujours la main droite"
+        },
             "value": 100
         },
         {
-            "name": "Usually right",
+            "name": {
+            "en": "Usually right",
+            "fr": "En général la main droite"
+        },
             "value": 50
         },
         {
-            "name": "Both equally",
+            "name": {
+            "en": "Both equally",
+            "fr": "Les deux"
+        },
             "value": 0
         },
         {
-            "name": "Usually left",
+            "name": {
+            "en": "Usually left",
+            "fr": "En général la main gauche"
+        },
             "value": -50
         },
         {
-            "name": "Always left",
+            "name": {
+            "en": "Always left",
+            "fr": "Toujours la main gauche"
+        },
             "value": -100
         }
     ]
