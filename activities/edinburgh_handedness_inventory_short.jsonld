@@ -2,7 +2,10 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "edinburgh_handedness_inventory_short.jsonld",
-    "prefLabel": "EHI short form",
+    "prefLabel": {
+        "en": "Edinburgh handedness inventory - short form",
+        "fr": "Version abrégée du test Edinburgh",
+    },
     "description": "Short version of the Edinburgh handedness inventory",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
