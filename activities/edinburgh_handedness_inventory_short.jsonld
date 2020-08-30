@@ -2,7 +2,7 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "edinburgh_handedness_inventory_short.jsonld",
-    "prefLabel": "Edinburgh handedness inventory - short form",
+    "prefLabel": "EHI short form",
     "description": "Short version of the Edinburgh handedness inventory",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
