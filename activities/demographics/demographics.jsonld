@@ -12,77 +12,63 @@
     "version": "0.0.1",
     "ui": {
         "order": [
-            "demo:writing.jsonld",
-            "demo:throwing.jsonld",
-            "demo:EHI_results.jsonld"
+            "demo:participant_id",
+            "demo:fullName",
+            "demo:sex",
+            "demo:age_years",
+            "demo:email",
+            "demo:participant_education",
+            "demo:nativeLanguage",
+            "demo:healthCondition",
+            "demo:mentalHealth",
+            "demo:share_data",
+            "demo:medication"
         ],
         "shuffle": false,
         "addProperties": [
             {
                 "variableName": "participant_id",
-                "isAbout": "demo:participant_id",
-                "valueRequired": true,
-                "isVis": true
+                "isAbout": "demo:participant_id"
             },
             {
                 "variableName": "fullName",
-                "isAbout": "demo:fullName",
-                "valueRequired": true,
-                "isVis": true
+                "isAbout": "demo:fullName"
             },
             {
                 "variableName": "sex",
-                "isAbout": "demo:sex",
-                "valueRequired": true,
-                "isVis": true
+                "isAbout": "demo:sex"
             },
             {
                 "variableName": "age_years",
-                "isAbout": "demo:age_years",
-                "valueRequired": true,
-                "isVis": true
+                "isAbout": "demo:age_years"
             },
             {
                 "isAbout": "demo:email",
-                "variableName": "email",
-                "valueRequired": true,
-                "isVis": true
+                "variableName": "email"
             },
             {
                 "isAbout": "demo:participant_education",
-                "variableName": "participant_education",
-                "valueRequired": true,
-                "isVis": true
+                "variableName": "participant_education"
             },
             {
                 "isAbout": "demo:nativeLanguage",
-                "variableName": "nativeLanguage",
-                "valueRequired": true,
-                "isVis": true
+                "variableName": "nativeLanguage"
             },
             {
                 "isAbout": "demo:healthCondition",
-                "variableName": "healthCondition",
-                "valueRequired": true,
-                "isVis": true
+                "variableName": "healthCondition"
             },
             {
                 "isAbout": "demo:mentalHealth",
-                "variableName": "mentalHealth",
-                "valueRequired": true,
-                "isVis": true
+                "variableName": "mentalHealth"
             },
             {
                 "isAbout": "demo:share_data",
-                "variableName": "share_data",
-                "valueRequired": true,
-                "isVis": true
+                "variableName": "share_data"
             },
             {
                 "isAbout": "demo:medication",
-                "variableName": "medication",
-                "valueRequired": true,
-                "isVis": true
+                "variableName": "medication"
             }
         ]
     }
