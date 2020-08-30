@@ -1,4 +1,4 @@
-name: Test cobidas activities
+name: Validation
 
 on:
   push:
