@@ -1,0 +1,89 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+        {
+            "demo": "https://github.com/ReproNim/reproschema-library/tree/master/activities/demographics_and_background_information_v1/items"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "demographics.jsonld",
+    "prefLabel": "demographics",
+    "description": "information about the participant",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "demo:writing.jsonld",
+            "demo:throwing.jsonld",
+            "demo:EHI_results.jsonld"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "variableName": "participant_id",
+                "isAbout": "demo:participant_id",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "fullName",
+                "isAbout": "demo:fullName",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "sex",
+                "isAbout": "demo:sex",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "variableName": "age_years",
+                "isAbout": "demo:age_years",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "demo:email",
+                "variableName": "email",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "demo:participant_education",
+                "variableName": "participant_education",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "demo:nativeLanguage",
+                "variableName": "nativeLanguage",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "demo:healthCondition",
+                "variableName": "healthCondition",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "demo:mentalHealth",
+                "variableName": "mentalHealth",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "demo:share_data",
+                "variableName": "share_data",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "demo:medication",
+                "variableName": "medication",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ]
+    }
+}
