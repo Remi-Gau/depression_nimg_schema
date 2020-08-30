@@ -1,7 +1,7 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
         {
-            "demo": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/demographics_and_background_information_v1/items"
+            "demo": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/demographics_and_background_information_v1/items/"
         }
     ],
     "@type": "reproschema:Activity",
